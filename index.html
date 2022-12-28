@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>js date object</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+	<section>
+		<div>
+			<table border=2 cellpadding=3>
+				<thead>
+					<tr>
+						<th>S.NO</th>
+						<th>DATE OBJECT METHOD</th>
+						<th>SYNTAX</th>
+						<th>DEFINITION</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr >
+						<th colspan="4">GET METHOD</th>
+					</tr>
+					<tr>
+						<td>01</td>
+						<td>Date.prototype.getDate</td>
+						<td>new Date()</td>
+						<td>Return the day of the month (1-31) for the specified date according to local time</td>
+					</tr>
+					
+					<tr>
+						<td>02</td>
+						<td>Date.prototype.getDay</td>
+						<td>new Day()</td>
+						<td>Return the day of the week (0-6) for the specified date according to local time</td>
+					</tr>
+					
+					<tr>
+						<td>03</td>
+						<td>Date.prototype.getFullYear</td>
+						<td>getFullYear()</td>
+						<td>Return the year (4 digits for 4-digits years) for the specified date according to local time</td>
+					</tr>
+					
+					<tr>
+						<td>04</td>
+						<td>Date.prototype.getHours</td>
+						<td>getHours()</td>
+						<td>Return the hours (0-23) in the specified date according to local time</td>
+					</tr>
+					
+					<tr>
+						<td>05</td>
+						<td>Date.prototype.getMilliseconds</td>
+						<td>getMilliseconds()</td>
+						<td>Return the milliseconds (0-999) in the specified date according to local time</td>
+					</tr>
+					
+					<tr>
+						<td>06</td>
+						<td>Date.prototype.getMinutes</td>
+						<td>getMinutes()</td>
+						<td>Return the minutes (0-59) in the specified date according to local time</td>
+					</tr>
+					
+					<tr>
+						<td>07</td>
+						<td>Date.prototype.getMonth</td>
+						<td>getMonth()</td>
+						<td>Return the month (0-11) in the specified date according to local time</td>
+					</tr>
+					
+					<tr>
+						<td>08</td>
+						<td>Date.prototype.getSeconds</td>
+						<td>getSeconds()</td>
+						<td>Return the seconds (0-59) in the specified date according to local time</td>
+					</tr>
+					
+					<tr>
+						<td>09</td>
+						<td>Date.prototype.getTime</td>
+						<td>getTime()</td>
+						<td>Return the numeric value of the specified date as the number of millisecond since january 1,1970,00:00:00 UTC.(Negative values are returned for prior times)</td>
+					</tr>
+					
+					<tr>
+						<td>10</td>
+						<td>Date.prototype.getTimezoneoffset()</td>
+						<td>getTimezoneoffset()</td>
+						<td>Returns the time-zone offset in minutes for the current locale.</td>
+					</tr>
+					
+					<tr>
+						<td>11</td>
+						<td>Date.prototype.getYear()</td>
+						<td>getYear()</td>
+						<td>Returns the year (usually 2-3 digits) in the specified date according to local time.use grtFullyear()*instead.</td>
+					</tr>
+					
+					<tr >
+						<th colspan="4">SET METHOD</th>
+					</tr>
+					
+					<tr>
+						<td>01</td>
+						<td>Date.prototype.setDate()</td>
+						<td>setDate()</td>
+						<td>sets the day of the month for a specified date according to local time.</td>
+					</tr>
+					
+					<tr>
+						<td>02</td>
+						<td>Date.prototype.setFullYear()</td>
+						<td>setFullYear()</td>
+						<td>sets the full years (e.g. 4 digits for 4-digits years) for a specified date according to local time.</td>
+					</tr>
+					
+					<tr>
+						<td>03</td>
+						<td>Date.prototype.setHours()</td>
+						<td>setHours()</td>
+						<td>sets the hours  for a specified date according to local time.</td>
+					</tr>
+					
+					<tr>
+						<td>04</td>
+						<td>Date.prototype.setMilliseconds()</td>
+						<td>setMilliseconds()</td>
+						<td>sets the millisecond  for a specified date according to local time.</td>
+					</tr>
+					
+					<tr>
+						<td>05</td>
+						<td>Date.prototype.setMinutes()</td>
+						<td>setMinutes()</td>
+						<td>sets the minutes  for a specified date according to local time.</td>
+					</tr>
+					
+					<tr>
+						<td>06</td>
+						<td>Date.prototype.setMonth()</td>
+						<td>setMonth()</td>
+						<td>sets the month  for a specified date according to local time.</td>
+					</tr>
+					
+					<tr>
+						<td>07</td>
+						<td>Date.prototype.setSeconds()</td>
+						<td>setSeconds()</td>
+						<td>sets the seconds  for a specified date according to local time.</td>
+					</tr>
+					
+					<tr>
+						<td>08</td>
+						<td>Date.prototype.setTime()</td>
+						<td>setTime()</td>
+						<td>sets the date object to the time represented by a number of millisecond since january1,1970,00:00:00 UTC.use negative numbers for times prior.</td>
+					</tr>
+					
+					<tr>
+						<td>09</td>
+						<td>Date.prototype.setYear()</td>
+						<td>setYear()</td>
+						<td>set the year (usually 2-3 digits) in the specified date according to local time.use grtFullyear()*instead.</td>
+					</tr>
+					
+					<tr >
+						<th colspan="4">CONVERT</th>
+					</tr>
+					
+					<tr>
+						<td>01</td>
+						<td>Date.prototype.DateString()</td>
+						<td>DateString()</td>
+						<td>return the "date" portion of the date as a human-readable string like 'the apr 12 2018'</td>
+					</tr>
+					
+					<tr>
+						<td>02</td>
+						<td>Date.prototype.toISOString()</td>
+						<td>toISOString()</td>
+						<td>converts a date to a string following the ISO 8601 extended format.</td>
+					</tr>
+					
+					<tr>
+						<td>03</td>
+						<td>Date.prototype.toJSON()</td>
+						<td>toJSON()</td>
+						<td>return a string represting the date using toISOString().intended for use by JSON.stringify().</td>
+					</tr>
+					
+					<tr>
+						<td>04</td>
+						<td>Date.prototype.toGMTString()</td>
+						<td>toGMTString()</td>
+						<td>return a string represting the date based on the GMT(UTC) time zone.use toUTCString()*instead</td>
+					</tr>
+					
+					<tr>
+						<td>05</td>
+						<td>Date.prototype.toLocaleDateString()</td>
+						<td>toLocaleDateString()</td>
+						<td>return a string with a locality sebsitive representation of the date portion of this date based on system settings.</td>
+					</tr>
+					
+					<tr>
+						<td>06</td>
+						<td>Date.prototype.toLocaleString()</td>
+						<td>toLocaleString()</td>
+						<td>return a string with a locality-sebsitive representation of the date. overrides the object.prototype.toLocaleString() method</td>
+					</tr>
+					
+					<tr>
+						<td>07</td>
+						<td>Date.prototype.toLocaleTimeString()</td>
+						<td>toLocaleTimeString()</td>
+						<td>return a string with a locality-sebsitive representation of the time portion of this date,based on system settings.</td>
+					</tr>
+					
+					<tr>
+						<td>08</td>
+						<td>Date.prototype.toString()</td>
+						<td>toString()</td>
+						<td>return a string representing the specified date object.overrides the object.prototype.toString()*method</td>
+					</tr>
+					
+					<tr>
+						<td>09</td>
+						<td>Date.prototype.TimeString()</td>
+						<td>TimeString()</td>
+						<td>return the "time" portion of the date as a human-readable string.</td>
+					</tr>
+					
+					
+					
+				</tbody>
+			</table>
+		</div>
+	</section>
+
+</body>
+</html>
